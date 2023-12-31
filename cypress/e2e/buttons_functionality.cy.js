@@ -25,4 +25,11 @@ describe('Increment/Decrement buttons functionality', () => {
       expect(counter.text().trim()).to.equal(parseInt(this.counterDefaultValue).toString());
     });
   });
+
+  it('Nothing happens on Reset when it has its default value', function () {
+    cy.get('[data-cy="resetCounter"]').click();
+    cy.get('[data-cy="counter"]').then((counter) => {
+      expect(counter.text().trim()).to.equal(parseInt(this.counterDefaultValue).toString());
+    });
+  });
 });
