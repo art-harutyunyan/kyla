@@ -31,5 +31,5 @@ npx cypress run
 The tests should be passed and you will see this in the command line interface:
 
 
-![My Remote Image](https://drive.google.com/file/d/11pERRakC0ptpdd_uHCK8rgnBfNl0yzFY/view?usp=drive_link)
+![My Image](log.png)
 
